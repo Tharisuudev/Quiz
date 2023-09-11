@@ -107,3 +107,18 @@ body {
   background: #09001d;
   box-shadow: none;
 }
+
+.popup-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: seagreen;
+  border-radius: 6px;
+}
+
+.popup-info h2 {
+  font-size: 50px;
+  color: #c40094;
+}
