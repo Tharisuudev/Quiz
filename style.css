@@ -249,3 +249,25 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+
+.quiz-header .header-score {
+  background: #c40094;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.quiz-header .quiz-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.option-list .option {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  font-size: 17px;
+  margin: 15px 0;
+  cursor: pointer;
+}
