@@ -117,6 +117,8 @@ body {
   background: #fff;
   border-radius: 6px;
   padding: 10px 25px;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .popup-info h2 {
@@ -142,7 +144,7 @@ body {
 }
 
 .popup-info .btn-group .info-btn {
-  display: inline-block;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 130px;
@@ -157,4 +159,20 @@ body {
   font-weight: 600;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+.popup-info .btn-group .info-btn:nth-child(1) {
+  background: transparent;
+  color: #c40094;
+}
+
+.popup-info .btn-group .info-btn:nth-child(1):hover {
+  background: #c40094;
+  color: #fff;
+}
+
+.popup-info .btn-group .info-btn:nth-child(2):hover {
+  background: #950170;
+  border-color: #950170;
 }
