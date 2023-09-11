@@ -100,4 +100,10 @@ body {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.home-content .start-btn:hover {
+  background: #09001d;
+  box-shadow: none;
 }
