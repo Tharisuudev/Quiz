@@ -230,6 +230,14 @@ body {
   padding: 20px 30px;
 }
 
+.quiz-section .quiz-box.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+  transition: 1s ease;
+  transition-delay: 1s;
+}
+
 .quiz-box h1 {
   font-size: 32px;
   text-align: center;
