@@ -34,12 +34,14 @@ continueBtn.onclick = () => {
   showQuestions(questionCount);
 };
 
+const optionlist = document.querySelector(".option-list");
+
+let optionTag = ` <div class="option">
+                <span>${questions}[index].options[0]}</span>
+              </div>`;
+
 //getting questions and options from array
 function showQuestions(index) {
   const questionText = document.querySelector(".question-text");
   questionText.textContent = `${questions[index].numb}. ${questions[index].questions}`;
 }
-
-const resultBox = document.querySelector(".result-box");
-const tryAgainBtn = document.querySelector(".tryAgain-btn");
-const goHomeBtn = document.querySelector(".goHome-btn");
